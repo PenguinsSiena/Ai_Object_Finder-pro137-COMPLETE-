@@ -1,0 +1,60 @@
+body {
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bedbd7;
+    font-weight: bold;
+}
+#show_objects {
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #bedbd7;
+    border-width: 2px;
+    width: 18%;
+    background-color: #dce9e9;
+}
+.btn1 {
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #86b3ac;
+    border-width: 2px;
+    width: 10%;
+    background-color: #bedbd7;
+}
+
+#status {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+}
+
+#object_detected {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    line-height: 2;
+    text-align: center;
+    background-color:#bedbd7;    ;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+
+canvas{
+    border: 2px solid rgb(255, 255, 192);
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px rgb(204, 204, 204);
+}
+
+input{
+    width: 25%;
+}
