@@ -48,9 +48,9 @@ function draw(){
          {
            video.stop();
         objectDetector.detect(gotResults);
-        document.getElementById("object").innerHTML =  object_name + "found";
+        document.getElementById("object").innerHTML =  object_name + " found";
         synth = window.speechSynthesis;
-        utterThis = new SpeechSynthesisUtterance(object_name + "Found");
+        utterThis = new SpeechSynthesisUtterance(object_name + " Found");
         synth.speak(utterThis);
     } else {
 
